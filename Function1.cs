@@ -270,7 +270,7 @@ namespace GetCertLinks_Function_TImer
             };
 
             //// this function will loop through the existing records with invalid certificate link values.
-            //// it will make the initial http request to the ahri site and if the response contains the model number, it will add the record to list_now_available
+            //// it will make the initial http request to the site and if the response contains the model number, it will add the record to list_now_available
             //// it will also delete the record from the ahri certlink sql table.
 
             void CheckForUpdates(List<String> invalid_refs)
